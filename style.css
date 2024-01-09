@@ -954,7 +954,7 @@ margin-left: 115px;
   display: flex;
   flex-direction: row;
   margin-top: 2rem;
-  margin-left: 4rem;
+  margin-left: 1.5rem;
 }
 .cards-div1:nth-child(2){
   background-color: #20a4f3;
@@ -1037,6 +1037,10 @@ margin-left: 115px;
   .marketing_form{
     margin-right: 0rem;
   }
+  #banner{
+    height: 150vh;
+    width: 50vh;
+  }
   nav{
     display: none;
   }
@@ -1051,7 +1055,7 @@ margin-left: 115px;
       
 }
 .head {
-    margin-top: 170%;
+    margin-top: 140%;
     text-align: center;
     font-weight: 400;
 
@@ -1065,8 +1069,8 @@ margin-left: 115px;
 
 }
 .inner-box2 img{
-  /* display: block; */
-  /* max-width: 100%; */
+  display: block; 
+  max-width: 100%; 
 }
 .inner-section{
   flex-direction: column;
@@ -1087,10 +1091,11 @@ margin-left: 115px;
 .logo-collaps{
   grid-template-columns: repeat(2,1fr);
   margin-left: 0px;
-  padding: 2rem;
+  padding: 0;
 }
 .services2{
   flex-direction: column;
+  gap: 1rem;
 }
 .main-cards{
   flex-direction: column;
@@ -1114,5 +1119,17 @@ margin-left: 115px;
 .inner-box1{
   width: 100%;
 }
+.h2{
+  text-align: justify;
+}
+.section {
+  padding: 0;
+}
+.services2 {
+ padding: 2rem;
+}
+.something{
+      margin-left: 4px;
 
+}
 }
