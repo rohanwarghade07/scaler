@@ -543,7 +543,7 @@
   text-align: center;
 }
 .feedback-testimonials{
-  max-width: 1200px ;
+  /* max-width: 1200px ; */
   /* overflow: auto; */
   margin: auto;
   overflow-x:auto;
@@ -566,6 +566,7 @@
 
 .inner-feedback-info{
   display: flex;
+  flex-direction: row;
 } 
 .inner-feedback-infos{
 display: flex;
@@ -1150,5 +1151,6 @@ padding: 0rem;
 }
 .outer-feedback{
   padding: 5px;
+
 }
 }
