@@ -1041,11 +1041,11 @@ margin-left: 115px;
     flex-direction: column;
   }
   .marketing_form{
-    margin-right: 3rem;
+    margin-right: 0rem;
   }
   #banner{
     height: 150vh;
-    width: 50vh;
+    width: 70vh;
   }
   nav{
     display: none;
@@ -1108,8 +1108,6 @@ margin-left: 115px;
 }
 .something{
   flex-direction: column;
-   /* margin-left: 14px;   */
-   margin-left: 0rem;
    padding: 1rem;
 
 }
@@ -1154,4 +1152,4 @@ padding: 0rem;
   padding: 5px;
 
 }
-}
+} 
