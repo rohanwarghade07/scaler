@@ -566,6 +566,9 @@
 
 .inner-feedback-info{
   display: flex;
+} 
+.inner-feedback-infos{
+display: flex;
 }
 .feedback-img{
   width: 100px;
@@ -983,7 +986,7 @@ margin-left: 115px;
 }
 .last-section{
   height: 30rem;
-  width: 25rem;
+  width: 100%;
   background-color:white;
 }
 .last-section-div img{
@@ -1025,11 +1028,12 @@ margin-left: 115px;
     flex-direction: row;
     gap: 15px;
     margin-top: 4rem;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
+    padding: 1rem;
 
 }
 /* ========================================================================================================== */
- @media screen and (max-width: 767px){
+ @media screen and (max-width: 600px){
   .hero-div{
     display: flex;
     flex-direction: column;
@@ -1102,8 +1106,13 @@ margin-left: 115px;
 }
 .something{
   flex-direction: column;
-   margin-left: 14px;
+   /* margin-left: 14px;   */
+   margin-left: 0rem;
+   padding: 1rem;
 
+}
+.last-section{
+  width: 100%;
 }
 .tittle2{
   flex-direction: column;
