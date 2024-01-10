@@ -572,8 +572,8 @@
 display: flex;
 }
 .feedback-img{
-  width: 100px;
-  height: 100px;
+  /* width: 100px;
+  height: 100px; */
 }
 .feedback-img img{
   width: 100px;
