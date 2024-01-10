@@ -971,7 +971,7 @@ margin-left: 115px;
   font-size: 3rem;
   text-align: center;
   margin-top: 4rem;
-   width: 100%;
+   width: 105%;
    height: auto;
  
  
@@ -1029,13 +1029,13 @@ margin-left: 115px;
 
 }
 /* ========================================================================================================== */
- @media screen and (max-width: 767px){
+ @media screen and (max-width: 600px){
   .hero-div{
     display: flex;
     flex-direction: column;
   }
   .marketing_form{
-    margin-right: 0rem;
+    margin-right: 3rem;
   }
   #banner{
     height: 150vh;
@@ -1050,7 +1050,7 @@ margin-left: 115px;
 
   }
 .cards-container{
-        padding: 0rem;
+        padding: 2rem;
 
       
 }
@@ -1102,6 +1102,8 @@ margin-left: 115px;
 }
 .something{
   flex-direction: column;
+   margin-left: 8px;
+
 }
 .tittle2{
   flex-direction: column;
@@ -1123,14 +1125,11 @@ margin-left: 115px;
   text-align: justify;
 }
 .section {
-  padding: 0;
+  padding: 15px;
 }
 .services2 {
  padding: 2rem;
-}
-.something{
-      margin-left: 10px;
-
+   
 }
 .feedback-testimonials{
 padding: 0rem;
@@ -1138,5 +1137,6 @@ padding: 0rem;
 .girl{
   border-radius: 0;
   overflow-x: auto;
+
 }
 }
