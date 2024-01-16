@@ -66,6 +66,9 @@ section {
   font-weight: bold;
   font-weight: bold;
 }
+.htt {
+  color: white;
+}
 
 .banner_stats {
   color: #ffffff;
@@ -1104,5 +1107,8 @@ section {
   }
   .outer-feedback {
     padding: 5px;
+  }
+  .htt {
+    margin-right: 7rem;
   }
 }
